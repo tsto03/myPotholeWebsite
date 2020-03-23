@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', Helvetica, sans-serif; 
+}
+
+.navbar {
+    display: flex;
+    background-color: brown;
+    color: white;
+    justify-content: space-between;
+    font-family: 'Open Sans', Helvetica, sans-serif; 
+}
+
+.navbar-home{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.navbar-right{
+    display: flex;
+    float: right;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+
+    
+}
+
+.navbar a{
+    color: white;
+    padding: 10px;
+    border: goldenrod solid 2px;
+}
+
+h1 {
+    text-align: center;
+     color: brown;
+     font-family: 'Open Sans', Helvetica, sans-serif; 
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    color: brown;
+    width: 48vw;
+    justify-content: center;
+    margin-left: 295px;
+    
+    
+}
+
+p2{
+    display: flex;
+    text-align: center;
+    color: brown;
+    font-family: 'Open Sans', Helvetica, sans-serif; 
+    
+}
+
+h2 {
+    color: brown;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 275px;
+    
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+}
+
+.column3{
+    display: flex;
+    flex-direction: column;
+    margin-right: 275px;
+}
+
+.column4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
